@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-radial-gradient{
+    background: radial-gradient(circle, #fff, #ffd6d6);
+}
+
+.custom-box-shadow{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.custom-filter{
+    filter: grayscale(100%);
+}
