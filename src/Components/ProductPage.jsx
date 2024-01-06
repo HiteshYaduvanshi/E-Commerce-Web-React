@@ -176,7 +176,7 @@ function ProductPage() {
               key={product.id}
               className="basis-[25%] px-2 mt-16 hover:translate-y-[-10px]"
             >
-              <Link to={`/Ecommerce-Web-React/products/${product.id}`} >
+              <Link to={`/E-Commerce-Web-React/products/${product.id}`} >
                 <img src={product.imgSrc} alt="product img" />
                 <h2 className="capitalize mt-3 text-[20px] font-semibold my-1 2xl:text-4xl">
                   {product.productName}
